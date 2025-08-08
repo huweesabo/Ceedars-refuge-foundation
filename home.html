@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ceedars Refuge Foundation</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #fff; }
+        header { background: #218838; color: #fff; padding: 1.5rem 1rem; display: flex; align-items: center; }
+        header img { width: 120px; height: auto; margin-right: 24px; }
+        nav { background: #ff8800; display: flex; justify-content: center; flex-wrap: wrap; }
+        nav a { color: #fff; padding: 1rem; text-decoration: none; font-weight: bold; }
+        nav a:hover { background: #218838; color: #fff; }
+        .container { max-width: 1000px; margin: 2rem auto; padding: 1rem; background: #fff; }
+        section { margin-bottom: 2rem; }
+        h1, h2, h3 { color: #218838; }
+        h2 { border-bottom: 2px solid #ff8800; padding-bottom: 0.5rem; margin-bottom: 1rem; }
+        .about-details { display: flex; flex-wrap: wrap; gap: 2rem; }
+        .about-col { flex: 1 1 220px; background: #f8f9fa; border-left: 5px solid #218838; padding: 1rem; border-radius: 8px; margin-bottom: 1rem;}
+        .initiatives-row { display: flex; flex-wrap: wrap; gap: 2rem; }
+        .initiative { flex: 1 1 220px; background: #fff7e6; border-left: 5px solid #ff8800; padding: 1rem; border-radius: 8px; margin-bottom: 1rem;}
+        .partners-row, .team-row { display: flex; flex-wrap: wrap; gap: 2rem; }
+        .partner, .team-member { flex: 1 1 220px; background: #e6fff7; border-left: 5px solid #218838; padding: 1rem; border-radius: 8px; margin-bottom: 1rem;}
+        .team-member img { width: 80px; height: 80px; border-radius: 50%; margin-bottom: 0.5rem; }
+        button[type="submit"] {
+            background: #ff8800;
+            color: #fff;
+            border: none;
+            padding: 0.75rem 2rem;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        button[type="submit"]:hover {
+            background: #218838;
+        }
+        label { color: #218838; font-weight: bold; }
+        input, textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin-top: 0.25rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ff8800;
+            border-radius: 4px;
+            background: #fff;
+        }
+        footer { background: #218838; color: #fff; text-align: center; padding: 1rem; }
+        @media (max-width: 700px) {
+            .about-details, .initiatives-row, .partners-row, .team-row { flex-direction: column; }
+            nav { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+   < <header style="background: #218838; color: #fff; padding: 1.5rem 1rem; ">
+    <div style="display: flex; flex-direction: column; align-items: center;">
+      <img src="logo.jpg" alt="Ceedars Refuge Foundation Logo" style="width:120px; height:auto; margin-bottom:10px;">
+      <p style="margin: 0; font-weight: bold; font-size: large;">Ceedars Refuge Foundation</p>
+      <p style="margin: 0;">Advancing Health. Empowering Communities. Protecting Futures</p>
+    </div>
+  </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#initiatives">Programs & Initiatives</a>
+        <a href="#partners">Key Partners</a>
+        <a href="#team">Our Team</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <div class="container">
+        <!-- About Section -->
+        <section id="about">
+    <h2>About Us</h2>
+    <p>Cedars Refuge Foundation (CRF) is a registered non-governmental, non-partisan organization founded in 2011 and incorporated with the Corporate Affairs Commission of Nigeria (CAC/IT/No. 48399). We are a purpose-driven organization working at the intersection of public health, social justice, and environmental sustainability, with a singular vision: to secure a healthier, fairer, and tobacco-free future for all.
+    At CRF, we believe that every individual deserves to live in dignity—free from the preventable harms of tobacco use, corporate exploitation, and environmental degradation. Rooted in community empowerment and equity, our work spans five core pillars: Advocacy, Training/Capacity Building, Research & Development, Environmental Justice and Grassroot empowerment & Civic Action.
+    At Cedars Refuge Foundation, we are more than advocates—we are changemakers, working with courage and compassion to amplify voices, challenge injustice, and build a Nigeria where health, rights, and environmental integrity are protected for generations to come.The foundation's strength lies in its dual focus on policy systems change and grassroots mobilization, backed by strategic partnerships and 13+ years of consistent action.
+    </p>
+    <div class="about-details" style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+        <div class="about-col">
+            <h3>Our Vision</h3>
+            <p>To achieve a healthier, smoke-free, and sustainable society where empowered communities—through advocacy, education, and support—strengthen health systems, foster healthier environments, and champion the rights of women and girls, free from the burdens of tobacco, related corporate harms and social inequity.</p>
+        </div>
+        <div class="about-col">
+            <h3>Our Mission</h3>
+            <p>Cedars Refuge Foundation empowers communities through advocacy, education, and partnerships to reduce tobacco-related harms, strengthen health systems, promote environmental justice, and advance the rights of women and girls for a healthier, smoke-free, and equitable future.</p>
+        </div>
+        <div class="about-col">
+            <h3>Our Objectives</h3>
+            <ul>
+                <li>Promote and advocate for strong tobacco control policies to protect youth and vulnerable populations while supporting cessation through integrated healthcare partnerships.</li>
+                <li>Strengthen people-centered health systems by driving community-led health campaigns and building local capacity through targeted support and strategic partnerships.</li>
+                <li>Advance environmental justice by raising awareness and mobilizing communities to address the ecological harms of tobacco, mining, oil, and gas industries.</li>
+                <li>Inform policy and public engagement through the production and dissemination of credible media, research, and advocacy materials that expose harmful corporate practices.</li>
+                <li>Empower communities—especially women and girls— through education, advocacy, and support to promote health equity, sustainable development, and social justice.</li>
+            </ul>
+        </div>
+        <div class="about-col">
+            <h3>Our Core Values</h3>
+            <ul>
+                <p>The Principles That Power Our Purpose
+At Cedars Refuge Foundation (CRF), our work is rooted in a deep and enduring commitment to public health, social justice, and community empowerment. Whether we are advocating for national policy change, equipping young people with tools to lead, supporting vulnerable populations, or designing impactful campaigns, our team operates with a value-driven mindset.
+These values are not just words — they define how we work, who we partner with, and the change we strive to create. They shape every program, every engagement, and every outcome.
+We are guided by our core values:
+</p>
+                <li><b>Accountability </b> to the communities we serve</li>
+                <li><b>Equity </b>in access, voice, and opportunity</li>
+                <li><b>Inclusion </b>that amplifies all voices</li>
+                <li><b>Courage </b> to confront systems that harm</li>
+                <li><b>Excellence </b> in everything we do</li>
+            </ul>
+        </div>
+    </div>
+</section>
+        <!-- Programs & Initiatives Section -->
+        <section id="initiatives">
+            <h2>Our Programs & Initiatives</h2>
+            <p>At Cedars Refuge Foundation (CRF), our work is brought to life through high-impact, community-centered programs that translate our mission into measurable change. Our initiatives are designed to protect public health, empower communities, promote gender equity, and hold harmful industries accountable:</p>
+            <div class="about-details" style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+                <div class="initiative">
+                    <h3>THE MOTHER EARTH INITIATIVE (MEI)</h3>
+                    <p>This is a grassroots-driven, youth-led climate action program aimed at addressing environmental degradation, climate inaction, and the lack of civic engagement in climate policy at the local and national levels. Rooted in education, community participation, and advocacy, MEI empowers students, teachers, civil society actors, and local leaders to become agents of environmental stewardship and policy reform.</p>
+                    <p>Key interventions
+                        <li>School-Based Climate Clubs ("Mother Earth Clubs")</li>
+                        <li>Community Environmental Action Days</li>
+                        <li>Climate Dialogues and Policy Forums</li>
+                        <li>Climate Literacy Toolkit and Media Campaigns</li>
+                        <li>Youth Climate Ambassadors Program</li>
+                        <li>Policy Influence & Civic Engagement</li>
+                    </p>
+                </div>
+                <div class="initiative">
+                    <h3>TOBACCO CONTROL INITIATIVES</h3>
+                    <p>This initiative is a multi-level advocacy and mobilization platform spearheaded by Cedars Refuge Foundation (CRF), designed to build a resilient, tobacco-free society by leveraging the voices of young people, the influence of primary health care department, mothers and caregivers, and the power of policy reform. It unites three critical pillars of advocacy — youth leadership, maternal and child health, and systemic policy change — under one coordinated movement to end the tobacco epidemic in Nigeria and beyond.</p>
+                    <p>Key Component.
+                        <li>Peer-Led Awareness Campaigns in Schools</li>
+                        <li>Youth Leadership Development</li>
+                        <li>Engagement in School Policy and Local Legislation</li>
+                        <li>Creative Arts & Competitions</li>
+                        <li>Mentorship and Partnerships</li>
+                    </p>
+                </div>
+                <div class="initiative">
+                    <h3>ADVANCING MATERNAL TO CHILD TOBACCO-FREE ADVOCACY INITIATIVE</h3>
+                    <p>This is a strategic public health program designed to protect pregnant and lactating mothers, unborn and newborn children from the devastating effects of tobacco exposure — both direct and indirect. Led by Cedars Refuge Foundation, this initiative addresses a critical gap in tobacco control advocacy by focusing on maternal and early-childhood vulnerability, with an emphasis on prevention, cessation, and community empowerment.</p>
+                    <p>Key Components:
+                        <li>Community Dialogues & Antenatal Sensitization</li>
+                        <li>Women’s Empowerment & Advocacy Mobilization</li>
+                        <li>Capacity Building for Healthcare Workers</li>
+                        <li>Service Integration into Maternal and Child Health Programs</li>
+                        <li>cessation support through integrated healthcare partnerships.</li>
+                        <li>Promotion of Tobacco-Free Homes</li>
+                    </p>
+                </div>
+                <div class="initiative">
+                    <h3>CIVIC VOICES AND POLICY POWER: A COLLABORATIVE ADVOCACY INITIATIVE FOR TOBACCO CONTROL</h3>
+                    <p>The Civic Voices and Policy Power initiative is a dynamic and inclusive platform under the Cedars Refuge Foundation that empowers young people, civil society actors, health advocates, educators, and community leaders to drive forward policy reforms in tobacco control through civic education, collective engagement, and strategic collaboration. 
+This initiative promotes and strengthen the civic and policy capacity of youth leaders and students; push for policy focus dialogue with stakeholders; build bridges between communities, policymakers, and civil society for meaningful dialogue and accountability; push for the adoption and implementation of youth-informed, health-protective tobacco control policies; develop and present policy briefs and youth manifestos to state assemblies, ministries of health/education, and local governments —creating an enabling environment for youth and stakeholders to influence tobacco control policies from the classroom to the corridors of government.
+                    </p>
+                    <p>Key Components
+                        <li>Civic Literacy & Policy Training for Youth</li>
+                        <li>Tobacco Control Town Halls & Stakeholder Dialogues</li> 
+                        <li>Policy Brief Development and Submission</li>
+                        <li>Strategic Collaboration and Advocacy Partnerships</li>
+                    </p>
+                </div>
+                 <div class="initiative">
+                    <h3>MEDIA, RESEARCH & PUBLICATION:</h3>
+                    <p>The Media, Research & Publication arm of Cedars Refuge Foundation (CRF) serves as the information engine of its advocacy and public engagement efforts. It is driven by the belief that truth is power—and that evidence-based storytelling, strategic media use, and credible research are vital tools in shaping public opinion, influencing decision-makers, and dismantling harmful corporate narratives, especially those promoted by the tobacco industry.
+Through a dynamic mix of media production, investigative research, and strategic communication, this initiative aims to educate the public, support youth-led advocacy, and strengthen accountability in public health and corporate behavior.
+
+                    </p>
+                    <p>Key Components
+                        <li>Media Production & Dissemination</li>
+                        <li>Evidence-Based Research & Publications</li> 
+                        <li>trategic Digital & Social Media Campaigns</li>
+                        <li>Media Engagement & Capacity Building</li>
+                    </p>
+                </div>
+                 <div class="initiative">
+                    <h3>THE GRASSROOTS EMPOWERMENT AND CIVIC ACTION INITIATIVE</h3>
+                    <p>This is a bold, people-centered program by Cedars Refuge Foundation that aims to educate, organize, and mobilize local communities—especially women, girls, and youth—to become active agents of change in their own development. Anchored in the principles of inclusion, participation, and equity, this initiative addresses deep-seated inequalities and barriers that hinder access to health, justice, and civic representation.
+Through civic learning, leadership training, and grassroots organizing, the initiative supports individuals and communities to understand their rights, demand accountability, and lead community-driven solutions that promote public health, gender equity, and social justice.
+
+                    </p>
+                    <p>Key Areas of Intervention:
+                        <li>Community-based training, capacity building and delivery.</li>
+                        <li>Inclusive Empowerment and Social Equity Programs for Women, Girls, Youth, and Persons with Disabilities</li>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- Key Partners Section -->
+        <section id="partners">
+            <h2>Our Key Partners</h2>
+            <div class="partners-row">
+                <div class="partner">
+                    <h3>The Federal Ministry of Health and Social Welfare</h3>
+                    <p> <img src="fmh.jpg" alt="The Federal Ministry of Health and Social Walfare Logo" style="width:120px; height:auto; margin-bottom:10px; text-align: center;"></p>
+                </div>
+                <div class="partner">
+                    <h3>Local Government</h3>
+                    <p>Collaborating on community development and advocacy programs.</p>
+                </div>
+                <div class="partner">
+                    <h3>UNICEF</h3>
+                    <p>Partnering to improve child welfare and protection services.</p>
+                </div>
+                <div class="partner">
+                    <h3>Community Volunteers</h3>
+                    <p>Driving grassroots change through active participation and support.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Our Team Section -->
+        <section id="team">
+            <h2>Our Team</h2>
+            <div class="team-row">
+                <div class="team-member">
+                    <img src="team1.jpg" alt="Jane Doe">
+                    <h3>Jane Doe</h3>
+                    <p>Executive Director</p>
+                </div>
+                <div class="team-member">
+                    <img src="team2.jpg" alt="John Smith">
+                    <h3>John Smith</h3>
+                    <p>Program Manager</p>
+                </div>
+                <div class="team-member">
+                    <img src="team3.jpg" alt="Mary Johnson">
+                    <h3>Mary Johnson</h3>
+                    <p>Health Coordinator</p>
+                </div>
+                <div class="team-member">
+                    <img src="team4.jpg" alt="Ahmed Musa">
+                    <h3>Ahmed Musa</h3>
+                    <p>Education Lead</p>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Us Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        &copy; 2025 Ceedars Refuge Foundation. All rights reserved.
+    </footer>
+</body>
+</html>
